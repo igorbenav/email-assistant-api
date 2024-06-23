@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "email-assistant-api"
+version = "0.1.0"
+description = "API that helps you writing emails with AI"
+authors = ["Igor Benav <igor.magalhaes.r@gmail.com>"]
+readme = "README.md"
+packages = [{include = "email_assistant_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+fastcrud = "^0.13.1"
+sqlmodel = "^0.0.19"
+aiosqlite = "^0.20.0"
+greenlet = "^3.0.3"
+openai = "^1.35.3"
+bcrypt = "^4.1.3"
+python-jose = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
