@@ -2,6 +2,7 @@
 # LLM Powered API with FastAPI and FastCRUD
 
 This project demonstrates how to create a personalized email writing assistant using FastAPI, OpenAI's API, and FastCRUD.
+For a full step-by-step tutorial, head to the [medium post](https://medium.com/@igorbenav/creating-llm-powered-apis-with-fastapi-in-2024-aecb02e40b8f).
 
 ## Prerequisites
 
